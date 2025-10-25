@@ -17,3 +17,9 @@ def get_current_temp(city: str) -> float:
         return temp
     else:        
         return 0.0
+    
+# The updated content of skill_weather.py on the branch:
+def format_for_speech(data: dict) -> str:   
+    condition = "condition"
+    phrase = f"The current temperature... and conditions are {condition}."
+    return phrase
