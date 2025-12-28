@@ -1,0 +1,28 @@
+
+# The lambda is assigned to a variable for demonstration
+# Key Logic: Square the session ID
+session_hash = lambda session_id: session_id * session_id
+
+# Jarvis calculates the temporary hashes
+result_1 = session_hash(9)
+result_2 = session_hash(12)
+
+print(f"ID 9 Hash:  {result_1}")
+print(f"ID 12 Hash: {result_2}")
+# Output: 
+# ID 9 Hash:  81
+# ID 12 Hash: 144
+
+
+
+
+
+# Lambda accepts two arguments (actual and baseline) and finds the difference
+latency_delta = lambda actual, baseline: abs(actual - baseline)
+
+# Jarvis performs a quick data check
+delta_value = latency_delta(105, 45)
+
+print(f"Latency Delta: {delta_value}ms")
+# Output:
+# Latency Delta: 60ms

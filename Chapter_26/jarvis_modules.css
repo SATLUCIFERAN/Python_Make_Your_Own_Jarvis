@@ -1,0 +1,27 @@
+
+
+#system-dashboard {
+    padding: 20px;
+    border: 1px solid #333;
+}
+.module-status {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.module-status.operational {
+    color: #4CAF50; /* Green */
+}
+.module-status.warning {
+    color: #FFC107; /* Amber */
+}
+[data-priority="high"] {
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+2025-10-22 19:37:10,208 - INFO - CORE_SYSTEM - Core module initialization complete.
+2025-10-22 19:37:10,208 - WARNING - CORE_SYSTEM - Low memory alert: 15%% remaining.
+2025-10-22 19:37:10,208 - INFO - CORE_SYSTEM - Attempting critical calculation.
+2025-10-22 19:37:10,208 - ERROR - CORE_SYSTEM - Failed to calculate division due to zero input.
+Traceback (most recent call last):
+  File "c:\Users\ASUS\Desktop\Python_book_7\Chapter_9\The_Paper_Trail.py", line 28, in attempt_division
+    result = numerator / denominator
+             ~~~~~~~~~~^~~~~~~~~~~~~
+
+
+
+
